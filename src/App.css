@@ -1403,10 +1403,11 @@
   /* === FOOTER === */
   .footer { padding: 40px 20px 20px; }
   .footer-top { grid-template-columns: 1fr; gap: 28px; text-align: center; }
-  .footer-top > * { justify-self: center; }
+  .footer-top > * { justify-self: center; width: 100%; }
   .footer-tagline { max-width: 100%; text-align: center; }
+  .footer-col { display: flex; flex-direction: column; align-items: center; }
   .footer-col ul { align-items: center; }
-  .footer-col p { text-align: center; }
+  .footer-col p { text-align: center; display: flex; flex-direction: column; align-items: center; gap: 4px; }
   .footer-col h4 { text-align: center; }
   .footer-strip { font-size: 11px; letter-spacing: 1px; padding: 12px 16px; }
   .footer-brand { font-size: 28px; }

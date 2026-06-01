@@ -31,10 +31,8 @@ export default function Footer() {
           <div className="footer-col">
             <h4>Contact</h4>
             <p>
-              <Phone size={13} style={{ marginRight: 6, verticalAlign: 'middle' }} />
-              352-667-8583<br />
-              <MessageSquare size={13} style={{ marginRight: 6, verticalAlign: 'middle' }} />
-              352-667-8583
+              <span><Phone size={13} style={{ marginRight: 6, verticalAlign: 'middle' }} />352-667-8583</span>
+              <span><MessageSquare size={13} style={{ marginRight: 6, verticalAlign: 'middle' }} />352-667-8583</span>
             </p>
             <h4 style={{ marginTop: 20 }}>Service Area</h4>
             <p>Pasco, Hernando, Hillsborough &amp; Pinellas Counties</p>
