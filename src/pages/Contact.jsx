@@ -33,10 +33,10 @@ const contactMethods = [
   {
     Icon: Mail,
     label: 'Email Us',
-    value: 'signatureshineluxe@gmail.com',
+    value: 'signatureshinexo@gmail.com',
     desc: 'Drop us an email for quotes, questions, or scheduling.',
     btnLabel: 'Send Email',
-    href: 'mailto:signatureshineluxe@gmail.com',
+    href: 'mailto:signatureshinexo@gmail.com',
   },
 ]
 
