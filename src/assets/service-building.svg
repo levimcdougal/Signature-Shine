@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d4b06a"/>
+      <stop offset="100%" stop-color="#a07830"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#6a4800" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="200" height="200" rx="44" fill="url(#bg)"/>
+  <!-- Left shorter building -->
+  <rect x="32" y="100" width="48" height="70" rx="4" fill="white" opacity="0.75" filter="url(#shadow)"/>
+  <!-- Left windows -->
+  <rect x="40" y="110" width="12" height="9" rx="2" fill="rgba(100,60,0,0.15)"/>
+  <rect x="56" y="110" width="12" height="9" rx="2" fill="rgba(100,60,0,0.15)"/>
+  <rect x="40" y="124" width="12" height="9" rx="2" fill="rgba(100,60,0,0.15)"/>
+  <rect x="56" y="124" width="12" height="9" rx="2" fill="rgba(100,60,0,0.15)"/>
+  <rect x="40" y="138" width="12" height="9" rx="2" fill="rgba(100,60,0,0.15)"/>
+  <rect x="56" y="138" width="12" height="9" rx="2" fill="rgba(100,60,0,0.15)"/>
+  <!-- Right shorter building -->
+  <rect x="120" y="100" width="48" height="70" rx="4" fill="white" opacity="0.75" filter="url(#shadow)"/>
+  <!-- Right windows -->
+  <rect x="128" y="110" width="12" height="9" rx="2" fill="rgba(100,60,0,0.15)"/>
+  <rect x="144" y="110" width="12" height="9" rx="2" fill="rgba(100,60,0,0.15)"/>
+  <rect x="128" y="124" width="12" height="9" rx="2" fill="rgba(100,60,0,0.15)"/>
+  <rect x="144" y="124" width="12" height="9" rx="2" fill="rgba(100,60,0,0.15)"/>
+  <rect x="128" y="138" width="12" height="9" rx="2" fill="rgba(100,60,0,0.15)"/>
+  <rect x="144" y="138" width="12" height="9" rx="2" fill="rgba(100,60,0,0.15)"/>
+  <!-- Centre tall building -->
+  <rect x="70" y="50" width="60" height="120" rx="4" fill="white" filter="url(#shadow)"/>
+  <!-- Rooftop detail -->
+  <rect x="88" y="40" width="6" height="14" rx="3" fill="white" opacity="0.8"/>
+  <rect x="98" y="36" width="6" height="18" rx="3" fill="white" opacity="0.9"/>
+  <rect x="108" y="40" width="6" height="14" rx="3" fill="white" opacity="0.8"/>
+  <!-- Centre windows grid -->
+  <rect x="78" y="62" width="13" height="10" rx="2" fill="rgba(100,60,0,0.12)"/>
+  <rect x="95" y="62" width="13" height="10" rx="2" fill="rgba(100,60,0,0.12)"/>
+  <rect x="112" y="62" width="10" height="10" rx="2" fill="rgba(100,60,0,0.12)"/>
+  <rect x="78" y="78" width="13" height="10" rx="2" fill="rgba(100,60,0,0.12)"/>
+  <rect x="95" y="78" width="13" height="10" rx="2" fill="rgba(100,60,0,0.12)"/>
+  <rect x="112" y="78" width="10" height="10" rx="2" fill="rgba(100,60,0,0.12)"/>
+  <rect x="78" y="94" width="13" height="10" rx="2" fill="rgba(100,60,0,0.12)"/>
+  <rect x="95" y="94" width="13" height="10" rx="2" fill="rgba(100,60,0,0.12)"/>
+  <rect x="112" y="94" width="10" height="10" rx="2" fill="rgba(100,60,0,0.12)"/>
+  <rect x="78" y="110" width="13" height="10" rx="2" fill="rgba(100,60,0,0.12)"/>
+  <rect x="95" y="110" width="13" height="10" rx="2" fill="rgba(100,60,0,0.12)"/>
+  <rect x="112" y="110" width="10" height="10" rx="2" fill="rgba(100,60,0,0.12)"/>
+  <!-- Entrance -->
+  <rect x="87" y="140" width="26" height="30" rx="3" fill="rgba(100,60,0,0.18)"/>
+  <path d="M87 146 Q100 140 113 146" fill="rgba(100,60,0,0.12)"/>
+</svg>

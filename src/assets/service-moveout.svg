@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e0c098"/>
+      <stop offset="100%" stop-color="#b09060"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#604000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="200" height="200" rx="44" fill="url(#bg)"/>
+  <!-- House outline -->
+  <path d="M100 46 L162 94 L148 94 L148 156 L52 156 L52 94 L38 94 Z" fill="white" opacity="0.7" filter="url(#shadow)"/>
+  <!-- Door open -->
+  <rect x="82" y="118" width="34" height="38" rx="3" fill="rgba(80,50,0,0.12)"/>
+  <!-- Box -->
+  <rect x="102" y="108" width="46" height="38" rx="4" fill="white" filter="url(#shadow)"/>
+  <path d="M102 120 Q125 112 148 120" stroke="rgba(80,50,0,0.2)" stroke-width="1.5" fill="none"/>
+  <line x1="125" y1="108" x2="125" y2="146" stroke="rgba(80,50,0,0.15)" stroke-width="1.5"/>
+  <!-- Arrow exiting -->
+  <path d="M148 127 L166 127" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path d="M158 119 L166 127 L158 135" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

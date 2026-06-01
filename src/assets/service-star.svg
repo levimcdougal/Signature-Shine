@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0b8cc"/>
+      <stop offset="100%" stop-color="#cc7090"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#80204a" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="200" height="200" rx="44" fill="url(#bg)"/>
+  <!-- 5 stars in a row -->
+  <!-- Star 1 -->
+  <path d="M38 105 L41.8 116.6 L54 116.6 L44.1 123.4 L47.9 135 L38 128.2 L28.1 135 L31.9 123.4 L22 116.6 L34.2 116.6 Z" fill="white" opacity="0.6" filter="url(#shadow)"/>
+  <!-- Star 2 -->
+  <path d="M72 105 L75.8 116.6 L88 116.6 L78.1 123.4 L81.9 135 L72 128.2 L62.1 135 L65.9 123.4 L56 116.6 L68.2 116.6 Z" fill="white" opacity="0.8" filter="url(#shadow)"/>
+  <!-- Star 3 (centre, large) -->
+  <path d="M100 70 L106.8 91 L129 91 L111.6 104 L118.4 125 L100 112 L81.6 125 L88.4 104 L71 91 L93.2 91 Z" fill="white" filter="url(#shadow)"/>
+  <!-- Star 4 -->
+  <path d="M128 105 L131.8 116.6 L144 116.6 L134.1 123.4 L137.9 135 L128 128.2 L118.1 135 L121.9 123.4 L112 116.6 L124.2 116.6 Z" fill="white" opacity="0.8" filter="url(#shadow)"/>
+  <!-- Star 5 -->
+  <path d="M162 105 L165.8 116.6 L178 116.6 L168.1 123.4 L171.9 135 L162 128.2 L152.1 135 L155.9 123.4 L146 116.6 L158.2 116.6 Z" fill="white" opacity="0.6" filter="url(#shadow)"/>
+  <!-- Sparkle top -->
+  <path d="M100 44 L102 50 L108 52 L102 54 L100 60 L98 54 L92 52 L98 50 Z" fill="white" opacity="0.7"/>
+  <!-- Sparkle dots -->
+  <circle cx="44" cy="68" r="4" fill="white" opacity="0.4"/>
+  <circle cx="156" cy="68" r="4" fill="white" opacity="0.4"/>
+</svg>

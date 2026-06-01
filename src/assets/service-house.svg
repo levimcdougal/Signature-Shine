@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dca5bc"/>
+      <stop offset="100%" stop-color="#b8708c"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#8a405c" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="200" height="200" rx="44" fill="url(#bg)"/>
+  <!-- Chimney (behind roof) -->
+  <rect x="124" y="54" width="14" height="30" rx="3" fill="white" opacity="0.85" filter="url(#shadow)"/>
+  <!-- House body + roof as one path -->
+  <path d="M100 44 L168 98 L152 98 L152 160 L116 160 L116 122 L84 122 L84 160 L48 160 L48 98 L32 98 Z" fill="white" filter="url(#shadow)"/>
+  <!-- Window left -->
+  <rect x="58" y="108" width="24" height="20" rx="4" fill="rgba(100,30,60,0.12)"/>
+  <line x1="70" y1="108" x2="70" y2="128" stroke="rgba(100,30,60,0.1)" stroke-width="1.5"/>
+  <line x1="58" y1="118" x2="82" y2="118" stroke="rgba(100,30,60,0.1)" stroke-width="1.5"/>
+  <!-- Window right -->
+  <rect x="118" y="108" width="24" height="20" rx="4" fill="rgba(100,30,60,0.12)"/>
+  <line x1="130" y1="108" x2="130" y2="128" stroke="rgba(100,30,60,0.1)" stroke-width="1.5"/>
+  <line x1="118" y1="118" x2="142" y2="118" stroke="rgba(100,30,60,0.1)" stroke-width="1.5"/>
+  <!-- Door knob -->
+  <circle cx="110" cy="144" r="3" fill="rgba(100,30,60,0.2)"/>
+</svg>

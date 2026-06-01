@@ -1,0 +1,66 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --gold: #c9a55a;
+  --gold-light: #e8cc88;
+  --gold-dark: #9a7a35;
+  --gold-pale: #fdf6e8;
+  --rose-gold: #f0208a;
+  --rose-gold-light: #f890c8;
+  --rose-gold-dark: #c0106a;
+  --rose-gold-pale: #fff0f7;
+  --pink: #f0208a;
+  --pink-dark: #c0106a;
+  --pink-pale: #1e0a16;
+  --pink-light: #280e1e;
+  --white: #160810;
+  --off-white: #1e0c16;
+  --footer-bg: #0a0408;
+  --text: #f5e8f0;
+  --text-muted: #d4a8c0;
+  --text-dim: #a07890;
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-hover: 0 8px 40px rgba(0, 0, 0, 0.6);
+  --shadow-gold: 0 4px 24px rgba(201, 165, 90, 0.3);
+  --radius: 12px;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  font-family: 'Raleway', 'Segoe UI', system-ui, sans-serif;
+  color: var(--text);
+  background: var(--white);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+  color: var(--text);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}

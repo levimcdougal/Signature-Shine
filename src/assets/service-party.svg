@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8d090"/>
+      <stop offset="100%" stop-color="#b89040"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#6a4400" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="200" height="200" rx="44" fill="url(#bg)"/>
+  <!-- Left flute -->
+  <path d="M76 50 L66 122 Q64 132 74 132 L90 132 Q100 132 98 122 L88 50 Z" fill="white" opacity="0.9" filter="url(#shadow)"/>
+  <!-- Left flute liquid -->
+  <path d="M80 95 L72 122 Q70 130 74 130 L90 130 Q97 130 96 122 L88 95 Z" fill="rgba(180,130,30,0.25)"/>
+  <!-- Left stem -->
+  <rect x="79" y="132" width="6" height="30" rx="3" fill="white" opacity="0.9"/>
+  <!-- Left base -->
+  <rect x="66" y="160" width="32" height="6" rx="3" fill="white" opacity="0.9"/>
+  <!-- Right flute -->
+  <path d="M124 50 L114 122 Q112 132 122 132 L138 132 Q148 132 146 122 L136 50 Z" fill="white" opacity="0.9" filter="url(#shadow)"/>
+  <!-- Right flute liquid -->
+  <path d="M128 95 L120 122 Q118 130 122 130 L138 130 Q145 130 144 122 L136 95 Z" fill="rgba(180,130,30,0.25)"/>
+  <!-- Right stem -->
+  <rect x="127" y="132" width="6" height="30" rx="3" fill="white" opacity="0.9"/>
+  <!-- Right base -->
+  <rect x="114" y="160" width="32" height="6" rx="3" fill="white" opacity="0.9"/>
+  <!-- Clink sparkle -->
+  <path d="M100 46 L102 52 L108 54 L102 56 L100 62 L98 56 L92 54 L98 52 Z" fill="white"/>
+  <!-- Bubbles left -->
+  <circle cx="78" cy="118" r="3" fill="white" opacity="0.6"/>
+  <circle cx="85" cy="108" r="2" fill="white" opacity="0.5"/>
+  <circle cx="81" cy="100" r="1.5" fill="white" opacity="0.5"/>
+  <!-- Bubbles right -->
+  <circle cx="126" cy="118" r="3" fill="white" opacity="0.6"/>
+  <circle cx="133" cy="108" r="2" fill="white" opacity="0.5"/>
+  <circle cx="129" cy="100" r="1.5" fill="white" opacity="0.5"/>
+  <!-- Confetti dots -->
+  <rect x="44" y="80" width="8" height="5" rx="2" fill="white" opacity="0.5" transform="rotate(-25 48 82)"/>
+  <rect x="148" y="80" width="8" height="5" rx="2" fill="white" opacity="0.5" transform="rotate(25 152 82)"/>
+  <rect x="40" y="130" width="7" height="4" rx="2" fill="white" opacity="0.4" transform="rotate(15 43 132)"/>
+  <rect x="153" y="130" width="7" height="4" rx="2" fill="white" opacity="0.4" transform="rotate(-15 156 132)"/>
+  <circle cx="46" cy="108" r="4" fill="white" opacity="0.35"/>
+  <circle cx="154" cy="108" r="4" fill="white" opacity="0.35"/>
+</svg>
