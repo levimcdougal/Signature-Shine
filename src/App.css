@@ -960,6 +960,7 @@
   color: var(--text-muted);
   line-height: 1.85;
   font-weight: 300;
+  white-space: nowrap;
 }
 
 .contact-cards {

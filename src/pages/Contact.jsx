@@ -135,8 +135,8 @@ export default function Contact() {
       <section className="section section-alt">
         <div className="section-inner">
           <div className="contact-intro">
-            <h2>Contact Us Directly</h2>
-            <p>No forms, no waiting. Pick your preferred way to reach us and we'll respond promptly.</p>
+            <h2>Prefer to Reach Us Directly?</h2>
+            <p>We're always happy to hear from you. Call, text, or email — whatever feels easiest.</p>
           </div>
 
           <div className="contact-cards">
